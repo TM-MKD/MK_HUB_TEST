@@ -71,12 +71,12 @@ st.markdown(
         filter: saturate(1.1);
     }
 
-    .button-blue {
-        background: linear-gradient(135deg, #0058c8 0%, #2f7de9 100%);
+    .button-gold {
+        background: linear-gradient(135deg, #b8860b 0%, #d4a017 55%, #f2c94c 100%);
     }
 
-    .button-indigo {
-        background: linear-gradient(135deg, #4a2ec8 0%, #6e53e6 100%);
+    .button-gold-alt {
+        background: linear-gradient(135deg, #9f7610 0%, #c9971c 55%, #e8bd45 100%);
     }
     </style>
     """,
