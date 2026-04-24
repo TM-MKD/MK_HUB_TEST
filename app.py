@@ -120,10 +120,10 @@ with col1:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Performance Profiling</h3>
+            <h3>Performance Profiling 📊</h3>
             <p class="tool-desc">Track and input player performance data.</p>
             <a class="hub-button button-blue" href="https://mkdons-player-profiling.streamlit.app/Data_Input" target="_blank">
-                📈 Open App
+                Open App
             </a>
         </div>
         """,
@@ -134,10 +134,10 @@ with col2:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Coach Evaluation Framework</h3>
+            <h3>Coach Evaluation Framework 🧠</h3>
             <p class="tool-desc">Analyse and review coaching performance.</p>
             <a class="hub-button button-indigo" href="https://cef-sandbox.streamlit.app/" target="_blank">
-                🧠 Open App
+                Open App
             </a>
         </div>
         """,
