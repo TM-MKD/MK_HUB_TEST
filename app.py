@@ -83,6 +83,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
 # ===================== HEADER =====================
 col1, col2 = st.columns([1, 6])
 
