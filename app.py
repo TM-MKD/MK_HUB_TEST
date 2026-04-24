@@ -107,6 +107,11 @@ st.markdown(
         width: 22px;
         height: 22px;
     }
+
+    .social-links .social-emoji {
+        font-size: 21px;
+        line-height: 1;
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -131,6 +136,9 @@ with col2:
             </a>
             <a href='https://www.youtube.com/@mkdonsacademyanalysis' target='_blank' aria-label='MK Dons Academy Analysis on YouTube'>
                 <img src='https://cdn.simpleicons.org/youtube/FF0000' alt='YouTube logo'/>
+            </a>
+            <a href='https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder'>
+                <span class='social-emoji' role='img' aria-hidden='true'>🗄️</span>
             </a>
         </div>
         """,
