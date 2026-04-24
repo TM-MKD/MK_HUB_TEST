@@ -78,6 +78,35 @@ st.markdown(
     .button-gold-alt {
         background: linear-gradient(135deg, #9f7610 0%, #c9971c 55%, #e8bd45 100%);
     }
+
+    .social-links {
+        display: flex;
+        gap: 0.75rem;
+        margin-top: 0.6rem;
+    }
+
+    .social-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 999px;
+        background: #ffffff;
+        border: 1px solid #d8e3f8;
+        box-shadow: 0 6px 14px rgba(14, 35, 79, 0.12);
+        transition: transform 0.15s ease, box-shadow 0.2s ease;
+    }
+
+    .social-links a:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 18px rgba(14, 35, 79, 0.18);
+    }
+
+    .social-links img {
+        width: 22px;
+        height: 22px;
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -94,7 +123,17 @@ with col1:
 
 with col2:
     st.markdown(
-        "<h1 class='hub-title'>MK Dons – Central Hub</h1>",
+        """
+        <h1 class='hub-title'>MK Dons – Central Hub</h1>
+        <div class='social-links'>
+            <a href='https://x.com/MKDonsFCAcademy' target='_blank' aria-label='MK Dons Academy on X'>
+                <img src='https://cdn.simpleicons.org/x/081a3a' alt='X logo'/>
+            </a>
+            <a href='https://www.youtube.com/@mkdonsacademyanalysis' target='_blank' aria-label='MK Dons Academy Analysis on YouTube'>
+                <img src='https://cdn.simpleicons.org/youtube/FF0000' alt='YouTube logo'/>
+            </a>
+        </div>
+        """,
         unsafe_allow_html=True
     )
 
@@ -112,6 +151,7 @@ st.markdown(
 )
 
 st.markdown("---")
+
 
 # ===================== BUTTON GRID =====================
 col1, col2 = st.columns(2)
