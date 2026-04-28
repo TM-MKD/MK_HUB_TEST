@@ -184,7 +184,7 @@ with col2:
         <div class="tool-card">
             <h3>Coach Evaluation Framework 🧠</h3>
             <p class="tool-desc">Analyse and review coaching performance.</p>
-            <a class="hub-button button-gold-alt" href="https://cef-sandbox.streamlit.app/" target="_blank">
+            <a class="hub-button button-gold-alt" href="https://cef-dashboard-mk.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
