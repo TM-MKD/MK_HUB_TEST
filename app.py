@@ -25,7 +25,7 @@ st.markdown(
         content: "";
         position: fixed;
         inset: 0;
-        background-image: linear-gradient(rgba(242, 245, 251, 0.70), rgba(242, 245, 251, 0.70)), url("https://images.gc.miltonkeynesdonsfcservices.co.uk/fit-in/2400x1350/11054e00-315b-11ef-a1bb-31ab0db176a1.webp");
+        background-image: linear-gradient(rgba(242, 245, 251, 0.80), rgba(242, 245, 251, 0.80)), url("https://images.gc.miltonkeynesdonsfcservices.co.uk/fit-in/2400x1350/11054e00-315b-11ef-a1bb-31ab0db176a1.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
