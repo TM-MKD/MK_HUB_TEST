@@ -122,14 +122,14 @@ col1, col2 = st.columns([1, 6])
 
 with col1:
     try:
-        st.image("assets/mkdons_badge.png", width=150)
+        st.image("assets/mkdons_badge.png", width=160)
     except Exception:
         pass
 
 with col2:
     st.markdown(
         """
-        <h1 class='hub-title'>MK Dons – Central Hub</h1>
+        <h1 class='hub-title'>MK Dons Academy – Central Hub</h1>
         <div class='social-links'>
             <a href='https://x.com/MKDonsFCAcademy' target='_blank' aria-label='MK Dons Academy on X'>
                 <img src='https://cdn.simpleicons.org/x/081a3a' alt='X logo'/>
