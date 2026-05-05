@@ -147,6 +147,7 @@ with col2:
 
 st.markdown("---")
 
+# ===================== BUTTON GRID =====================
 col1, col2 = st.columns(2)
 
 with col1:
@@ -174,9 +175,8 @@ with col2:
         unsafe_allow_html=True
     )
 
-st.markdown("---")
+st.markdown("<div class='button-row-gap'></div>", unsafe_allow_html=True)
 
-# ===================== BUTTON GRID =====================
 col1, col2 = st.columns(2)
 
 with col1:
