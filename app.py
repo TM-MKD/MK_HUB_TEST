@@ -11,8 +11,19 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: radial-gradient(circle at top left, #f7fbff 0%, #eef4ff 40%, #f7f8fc 100%);
+        position: relative;
+        background-color: #f2f5fb;
     }
+
+    .stApp::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background-image: linear-gradient(rgba(242, 245, 251, 0.70), rgba(242, 245, 251, 0.70)), url("https://images.gc.miltonkeynesdonsfcservices.co.uk/fit-in/2400x1350/11054e00-315b-11ef-a1bb-31ab0db176a1.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
 
     [data-testid="stSidebar"],
     [data-testid="collapsedControl"] {
