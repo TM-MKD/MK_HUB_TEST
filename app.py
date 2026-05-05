@@ -153,8 +153,8 @@ with col1:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Welcome to the central hub for all MK Dons performance and coaching applications</h3>
-            <h3>Click on a tool to open it in a new tab ⚽️</h3>
+            <h3>Welcome to the central hub for all MK Dons performance and coaching applications ⚽️</h3>
+            <h4>Click on a tool to open it in a new tab 👈</h4>
         </div>
         """,
         unsafe_allow_html=True
