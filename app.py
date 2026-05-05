@@ -186,7 +186,7 @@ with col1:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Coaching Hub 🧑‍🏫</h3>
+            <h3>Coaching Hub 👥</h3>
             <p class="tool-desc">Access to all coaching resources.</p>
             <a class="hub-button button-gold" href="https://mkdonscoaching.streamlit.app" target="_blank">
                 Open Hub
@@ -285,7 +285,7 @@ with col1:
             <h3>Season Calendar 📆</h3>
             <p class="tool-desc">Search for key dates and fixtures.</p>
             <a class="hub-button button-gold" href="https://mkapptest.streamlit.app/" target="_blank">
-                Open App
+                Open Calendar
             </a>
         </div>
         """,
