@@ -52,7 +52,7 @@ st.markdown(
     }
 
     .tool-card {
-        background: rgba(255, 255, 255, 0.82);
+        background: rgba(255, 255, 255);
         border: 1px solid #d8e3f8;
         border-radius: 16px;
         padding: 1rem 1rem 1.1rem;
