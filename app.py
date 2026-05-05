@@ -197,9 +197,9 @@ with col2:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Academy Analysis Dashboard 📈</h3>
-            <p class="tool-desc">Investigate key data, trends and benchmarking.</p>
-            <a class="hub-button button-gold-alt" href="https://mkdanalysisdashboard.streamlit.app" target="_blank">
+            <h3>Coach Evaluation Framework 🧠</h3>
+            <p class="tool-desc">Analyse and review coaching performance.</p>
+            <a class="hub-button button-gold-alt" href="https://cef-dashboard-mk.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
@@ -215,9 +215,9 @@ with col1:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Performance Profiling 📊</h3>
-            <p class="tool-desc">Track and input player performance data.</p>
-            <a class="hub-button button-gold" href="https://mkdons-player-profiling.streamlit.app/Data_Input" target="_blank">
+            <h3>Academy Analysis Dashboard 📈</h3>
+            <p class="tool-desc">Investigate key data, trends and benchmarking.</p>
+            <a class="hub-button button-gold-alt" href="https://mkdanalysisdashboard.streamlit.app" target="_blank">
                 Open App
             </a>
         </div>
@@ -229,9 +229,9 @@ with col2:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Coach Evaluation Framework 🧠</h3>
-            <p class="tool-desc">Analyse and review coaching performance.</p>
-            <a class="hub-button button-gold-alt" href="https://cef-dashboard-mk.streamlit.app/" target="_blank">
+            <h3>Performance Profiling 📊</h3>
+            <p class="tool-desc">Track and input player performance data.</p>
+            <a class="hub-button button-gold" href="https://mkdons-player-profiling.streamlit.app/Data_Input" target="_blank">
                 Open App
             </a>
         </div>
