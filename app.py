@@ -151,22 +151,21 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown(
-    """
-    <p class="intro-copy">
-    Welcome to the central hub for all MK Dons performance and coaching applications.
-
-    Click on a tool below to open it in a new tab.
-    </p>
-    """,
-    unsafe_allow_html=True
-)
+        """
+        <div class="tool-card">
+            <h3>Welcome to the central hub for all MK Dons performance and coaching applications.</h3>
+            <h3>Click on a tool below to open it in a new tab.</h3>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 with col2:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Central Intellegence Files 🗄️</h3>
-            <p class="tool-desc">Access the Central Intellegence folders on SharePoint.</p>
+            <h3>Central Intelligence Files 🗄️</h3>
+            <p class="tool-desc">Access the Central Intelligence folders on SharePoint.</p>
             <a class="hub-button button-gold-alt" href="https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder" target="_blank">
                 Open App
             </a>
