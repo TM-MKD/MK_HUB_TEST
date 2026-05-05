@@ -175,11 +175,11 @@ with col2:
         unsafe_allow_html=True
     )
 
+# ===================== COACH APPS =====================
 st.markdown("---")
-st.markdown("Coach Apps")
 st.markdown(
         """
-        <h2 class='hub-title'>Coach Apps</h2>
+        <h3 class='hub-title'>Coaching</h3>
         """,
         unsafe_allow_html=True
     )
@@ -214,7 +214,14 @@ with col2:
         unsafe_allow_html=True
     )
 
-st.markdown("<div class='button-row-gap'></div>", unsafe_allow_html=True)
+# ===================== DATA APPS =====================
+st.markdown("---")
+st.markdown(
+        """
+        <h3 class='hub-title'>Data</h3>
+        """,
+        unsafe_allow_html=True
+    )
 
 col1, col2 = st.columns(2)
 
@@ -278,7 +285,14 @@ with col2:
         unsafe_allow_html=True
     )
 
-st.markdown("<div class='button-row-gap'></div>", unsafe_allow_html=True)
+# ===================== ADMIN APPS =====================
+st.markdown("---")
+st.markdown(
+        """
+        <h3 class='hub-title'>Admin</h3>
+        """,
+        unsafe_allow_html=True
+    )
 
 col1, col2 = st.columns(2)
 
@@ -297,18 +311,19 @@ with col1:
     )
 
 with col2:
-    st.markdown(
+     st.markdown(
         """
         <div class="tool-card">
-            <h3>New App Placeholder</h3>
-            <p class="tool-desc">New App Placeholder.</p>
-            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app/" target="_blank">
+            <h3>MyConcern Reporting 🗳️</h3>
+            <p class="tool-desc">File safeguarding reports on MyConcern.</p>
+            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
         """,
         unsafe_allow_html=True
     )
+
 st.markdown("---")
 
 # ===================== FOOTER =====================
