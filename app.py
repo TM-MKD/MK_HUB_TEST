@@ -140,9 +140,6 @@ with col2:
             <a href='https://www.instagram.com/mkdonsfcacademy/' target='_blank' aria-label='MK Dons Academy Analysis on Instagram'>
                 <img src='https://cdn.simpleicons.org/instagram/FF0000' alt='Instagram logo'/>
             </a>
-            <a href='https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder'>
-                <span class='social-emoji' role='img' aria-hidden='true'>🗄️</span>
-            </a>
         </div>
         """,
         unsafe_allow_html=True
@@ -150,7 +147,10 @@ with col2:
 
 st.markdown("---")
 
-st.markdown(
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown(
     """
     <p class="intro-copy">
     Welcome to the central hub for all MK Dons performance and coaching applications.
@@ -161,8 +161,21 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("---")
+with col2:
+    st.markdown(
+        """
+        <div class="tool-card">
+            <h3>Central Intellegence Files 🗄️</h3>
+            <p class="tool-desc">Access the Central Intellegence folders on SharePoint.</p>
+            <a class="hub-button button-gold-alt" href="https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder" target="_blank">
+                Open App
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
+st.markdown("---")
 
 # ===================== BUTTON GRID =====================
 col1, col2 = st.columns(2)
