@@ -153,8 +153,8 @@ with col1:
     st.markdown(
         """
         <div class="tool-card">
-            <h3>Welcome to the central hub for all MK Dons performance and coaching applications.</h3>
-            <h3>Click on a tool to open it in a new tab.</h3>
+            <h3>Welcome to the central hub for all MK Dons performance and coaching applications</h3>
+            <h3>Click on a tool to open it in a new tab ⚽️</h3>
         </div>
         """,
         unsafe_allow_html=True
@@ -165,7 +165,7 @@ with col2:
         """
         <div class="tool-card">
             <h3>Central Intelligence Files 🗄️</h3>
-            <p class="tool-desc">Access the Central Intelligence folders on SharePoint.</p>
+            <p class="tool-desc">Access to the Central Intelligence folders on SharePoint.</p>
             <a class="hub-button button-gold-alt" href="https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder" target="_blank">
                 Open App
             </a>
@@ -184,7 +184,7 @@ with col1:
         """
         <div class="tool-card">
             <h3>Coaching Hub 🧑‍🏫</h3>
-            <p class="tool-desc">Access the MK Dons Coaching Hub resources.</p>
+            <p class="tool-desc">Access to all coaching resources.</p>
             <a class="hub-button button-gold" href="https://mkdonscoaching.streamlit.app" target="_blank">
                 Open App
             </a>
@@ -198,7 +198,7 @@ with col2:
         """
         <div class="tool-card">
             <h3>Academy Analysis Dashboard 📈</h3>
-            <p class="tool-desc">Open the Academy Analysis Dashboard.</p>
+            <p class="tool-desc">Investigate key data, trends and benchmarking.</p>
             <a class="hub-button button-gold-alt" href="https://mkdanalysisdashboard.streamlit.app" target="_blank">
                 Open App
             </a>
