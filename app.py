@@ -168,6 +168,36 @@ with col1:
     st.markdown(
         """
         <div class="tool-card">
+            <h3>Coaching Hub 🧑‍🏫</h3>
+            <p class="tool-desc">Access the MK Dons Coaching Hub resources.</p>
+            <a class="hub-button button-gold" href="https://mkdonscoaching.streamlit.app" target="_blank">
+                Open App
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with col2:
+    st.markdown(
+        """
+        <div class="tool-card">
+            <h3>Academy Analysis Dashboard 📈</h3>
+            <p class="tool-desc">Open the Academy Analysis Dashboard.</p>
+            <a class="hub-button button-gold-alt" href="https://mkdanalysisdashboard.streamlit.app" target="_blank">
+                Open App
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown(
+        """
+        <div class="tool-card">
             <h3>Performance Profiling 📊</h3>
             <p class="tool-desc">Track and input player performance data.</p>
             <a class="hub-button button-gold" href="https://mkdons-player-profiling.streamlit.app/Data_Input" target="_blank">
