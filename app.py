@@ -192,7 +192,7 @@ with col2:
         unsafe_allow_html=True
     )
 
-st.markdown("---")
+st.markdown("<div class='button-row-gap'></div>", unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
