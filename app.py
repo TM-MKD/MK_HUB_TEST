@@ -271,20 +271,6 @@ with col1:
         unsafe_allow_html=True
     )
 
-with col2:
-    st.markdown(
-        """
-        <div class="tool-card">
-            <h3>MyConcern Reporting 🗳️</h3>
-            <p class="tool-desc">File safeguarding reports on MyConcern.</p>
-            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app/" target="_blank">
-                Open App
-            </a>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
 # ===================== ADMIN APPS =====================
 st.markdown("---")
 st.markdown(
