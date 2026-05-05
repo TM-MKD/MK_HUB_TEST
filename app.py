@@ -167,7 +167,7 @@ with col2:
         <div class="tool-card">
             <h3>Central Intelligence Files 🗄️</h3>
             <p class="tool-desc">Access to the Central Intelligence folders on SharePoint.</p>
-            <a class="hub-button button-gold-alt" href="https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder" target="_blank">
+            <a class="hub-button button-gold" href="https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder" target="_blank">
                 Open App
             </a>
         </div>
@@ -206,7 +206,7 @@ with col2:
         <div class="tool-card">
             <h3>Coach Evaluation Framework 🧠</h3>
             <p class="tool-desc">Analyse and review coaching performance.</p>
-            <a class="hub-button button-gold-alt" href="https://cef-dashboard-mk.streamlit.app/" target="_blank">
+            <a class="hub-button button-gold" href="https://cef-dashboard-mk.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
@@ -231,7 +231,7 @@ with col1:
         <div class="tool-card">
             <h3>Academy Analysis Dashboard 📈</h3>
             <p class="tool-desc">Investigate key data, trends and benchmarking.</p>
-            <a class="hub-button button-gold-alt" href="https://mkdanalysisdashboard.streamlit.app" target="_blank">
+            <a class="hub-button button-gold" href="https://mkdanalysisdashboard.streamlit.app" target="_blank">
                 Open App
             </a>
         </div>
@@ -263,7 +263,7 @@ with col1:
         <div class="tool-card">
             <h3>Physical Performance Data 💪</h3>
             <p class="tool-desc">Analyse and interpret all player's physical data.</p>
-            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app/" target="_blank">
+            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
@@ -288,7 +288,7 @@ with col1:
         <div class="tool-card">
             <h3>Season Calendar 📆</h3>
             <p class="tool-desc">Search for key dates and fixtures.</p>
-            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app/" target="_blank">
+            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
