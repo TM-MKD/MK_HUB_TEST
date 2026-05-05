@@ -313,4 +313,4 @@ with col2:
 st.markdown("---")
 
 # ===================== FOOTER =====================
-st.caption("More tools coming soon...")
+st.caption("MK Dons Academy - Central Hub")
