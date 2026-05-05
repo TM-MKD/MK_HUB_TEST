@@ -164,7 +164,7 @@ with col2:
             <h3>Central Intelligence Files 🗄️</h3>
             <p class="tool-desc">Access to the Central Intelligence folders on SharePoint.</p>
             <a class="hub-button button-gold" href="https://stadiummk.sharepoint.com/teams/CentralIntelligence/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FCentralIntelligence%2FShared%20Documents%2FCentral%20Intelligence%20%2D%20MK%20Dons%20Academy&viewid=e7b75dc7%2D8452%2D4245%2Da735%2Def9d18208b9a' target='_blank' aria-label='MK Dons Academy SharePoint folder" target="_blank">
-                Open App
+                Open SharePoint
             </a>
         </div>
         """,
@@ -189,7 +189,7 @@ with col1:
             <h3>Coaching Hub 🧑‍🏫</h3>
             <p class="tool-desc">Access to all coaching resources.</p>
             <a class="hub-button button-gold" href="https://mkdonscoaching.streamlit.app" target="_blank">
-                Open App
+                Open Hub
             </a>
         </div>
         """,
@@ -299,7 +299,7 @@ with col2:
             <h3>MyConcern Reporting 🗳️</h3>
             <p class="tool-desc">Access all essential safeguarding tools.</p>
             <a class="hub-button button-gold" href="https://login.thesafeguardingcompany.com/" target="_blank">
-                Open App
+                Open MyConcern
             </a>
         </div>
         """,
