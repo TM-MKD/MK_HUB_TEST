@@ -249,7 +249,7 @@ with col1:
         <div class="tool-card">
             <h3>Physical Performance Data 💪</h3>
             <p class="tool-desc">Analyse and interpret all player's physical data.</p>
-            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app" target="_blank">
+            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
@@ -263,7 +263,7 @@ with col2:
         <div class="tool-card">
             <h3>MyConcern Reporting 🗳️</h3>
             <p class="tool-desc">File safeguarding reports on MyConcern.</p>
-            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app" target="_blank">
+            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
@@ -281,7 +281,7 @@ with col1:
         <div class="tool-card">
             <h3>Season Calendar 📆</h3>
             <p class="tool-desc">Search for key dates and fixtures.</p>
-            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app" target="_blank">
+            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app/" target="_blank">
                 Open App
             </a>
         </div>
