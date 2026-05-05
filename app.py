@@ -72,11 +72,7 @@ st.markdown(
     }
 
     .button-gold {
-        background: linear-gradient(135deg, #b8860b 0%, #d4a017 55%, #f2c94c 100%);
-    }
-
-    .button-gold-alt {
-        background: linear-gradient(135deg, #9f7610 0%, #c9971c 55%, #e8bd45 100%);
+        background: linear-gradient(135deg, #b8860b 0%, #edb118 21%, #fcd45b 79%);
     }
 
     .social-links {
