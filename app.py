@@ -12,8 +12,13 @@ st.markdown(
     <style>
     .stApp {
         position: relative;
-        
+        isolation: isolate;
         background-color: #f2f5fb;
+    }
+
+    .stApp > * {
+        position: relative;
+        z-index: 1;
     }
 
     .stApp::before {
@@ -24,8 +29,9 @@ st.markdown(
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        z-index: -1;
-    }    
+        z-index: 0;
+        pointer-events: none;
+    }  
 
     [data-testid="stSidebar"],
     [data-testid="collapsedControl"] {
