@@ -290,7 +290,18 @@ with col1:
     )
 
 with col2:
-
+    st.markdown(
+        """
+        <div class="tool-card">
+            <h3>New App Placeholder</h3>
+            <p class="tool-desc">New App Placeholder.</p>
+            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app/" target="_blank">
+                Open App
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 st.markdown("---")
 
 # ===================== FOOTER =====================
