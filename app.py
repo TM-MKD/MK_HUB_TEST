@@ -238,6 +238,58 @@ with col2:
         """,
         unsafe_allow_html=True
     )
+    
+st.markdown("<div class='button-row-gap'></div>", unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown(
+        """
+        <div class="tool-card">
+            <h3>Physical Performance Data 💪</h3>
+            <p class="tool-desc">Analyse and interpret all player's physical data.</p>
+            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app" target="_blank">
+                Open App
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with col2:
+    st.markdown(
+        """
+        <div class="tool-card">
+            <h3>MyConcern Reporting 🗳️</h3>
+            <p class="tool-desc">File safeguarding reports on MyConcern.</p>
+            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app" target="_blank">
+                Open App
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+st.markdown("<div class='button-row-gap'></div>", unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown(
+        """
+        <div class="tool-card">
+            <h3>Season Calendar 📆</h3>
+            <p class="tool-desc">Search for key dates and fixtures.</p>
+            <a class="hub-button button-gold-alt" href="https://mkapptest.streamlit.app" target="_blank">
+                Open App
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with col2:
 
 st.markdown("---")
 
