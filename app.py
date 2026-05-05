@@ -297,8 +297,8 @@ with col2:
         """
         <div class="tool-card">
             <h3>MyConcern Reporting 🗳️</h3>
-            <p class="tool-desc">File safeguarding reports on MyConcern.</p>
-            <a class="hub-button button-gold" href="https://mkapptest.streamlit.app/" target="_blank">
+            <p class="tool-desc">Access all essential safeguarding tools.</p>
+            <a class="hub-button button-gold" href="https://login.thesafeguardingcompany.com/" target="_blank">
                 Open App
             </a>
         </div>
