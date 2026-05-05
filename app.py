@@ -192,6 +192,8 @@ with col2:
         unsafe_allow_html=True
     )
 
+elements.append(Spacer(1, 8))
+
 col1, col2 = st.columns(2)
 
 with col1:
