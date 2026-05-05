@@ -176,7 +176,7 @@ with col2:
     )
 
 st.markdown("---")
-st.markdown("<h2>Coach Apps</h2>"
+st.markdown("<h2>Coach Apps</h2>")
 
 col1, col2 = st.columns(2)
 
