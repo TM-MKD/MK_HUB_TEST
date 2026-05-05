@@ -122,7 +122,7 @@ col1, col2 = st.columns([1, 6])
 
 with col1:
     try:
-        st.image("assets/mkdons_badge.png", width=130)
+        st.image("assets/mkdons_badge.png", width=150)
     except Exception:
         pass
 
@@ -154,7 +154,7 @@ with col1:
         """
         <div class="tool-card">
             <h3>Welcome to the central hub for all MK Dons performance and coaching applications.</h3>
-            <h3>Click on a tool below to open it in a new tab.</h3>
+            <h3>Click on a tool to open it in a new tab.</h3>
         </div>
         """,
         unsafe_allow_html=True
