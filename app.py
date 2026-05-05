@@ -24,7 +24,8 @@ st.markdown(
         background-position: center;
         background-repeat: no-repeat;
         z-index: -1;
-
+    }    
+        
     [data-testid="stSidebar"],
     [data-testid="collapsedControl"] {
         display: none;
