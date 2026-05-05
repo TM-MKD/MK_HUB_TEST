@@ -176,7 +176,13 @@ with col2:
     )
 
 st.markdown("---")
-st.markdown("<h2>Coach Apps</h2>")
+st.markdown("Coach Apps")
+st.markdown(
+        """
+        <h2 class='hub-title'>Coach Apps</h2>
+        """,
+        unsafe_allow_html=True
+    )
 
 col1, col2 = st.columns(2)
 
