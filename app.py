@@ -192,7 +192,7 @@ with col2:
         unsafe_allow_html=True
     )
 
-elements.append(Spacer(1, 8))
+st.markdown("---")
 
 col1, col2 = st.columns(2)
 
